@@ -1,0 +1,252 @@
+{
+  "time_input": {
+    "u": "sqrt(2)*(4*cos(t)^3+2*cos(t)^2-2*cos(t)-1)",
+    "i": "G*u+h(A)*Du; A=-D^2; G arbitrary nonnegative",
+    "h_ascending_exact": [
+      "-161/90",
+      "31/36",
+      "-13/180"
+    ]
+  },
+  "explicit_passive_load_certificate": {
+    "topology": "Parallel conductance G, capacitor C0, inductor L0, and one series LC branch",
+    "components_exact": {
+      "shunt_capacitance": "11/20",
+      "shunt_inductance": "10/17",
+      "series_branch_inductance": "4/3",
+      "series_branch_capacitance": "1/8"
+    },
+    "conductance": "Any G>=0; G=1 gives an explicitly dissipative passive load",
+    "current_equation": "i=G*u+(11/20)*D*u+(17/10)*D^(-1)*u+(3/4)*(D^2+6)^(-1)*D*u",
+    "rational_operator_identity": "h(A)=11/20-(17/10)*A^(-1)+(3/4)*(6-A)^(-1) modulo p(A)",
+    "cleared_denominator_identity": "A*(6-A)*(h(A)-11/20+(17/10)*A^(-1)-(3/4)*(6-A)^(-1))=(13*A-51)*p(A)/180",
+    "cleared_difference_ascending_exact": [
+      "51/5",
+      "-989/60",
+      "1351/180",
+      "-233/180",
+      "13/180"
+    ],
+    "identity_verified_exactly": true,
+    "denominator_invertibility": {
+      "p_at_0": -36,
+      "p_at_6": -30
+    },
+    "all_components_strictly_positive": true,
+    "meaning": "The irrational optimal compensator tuning occurs even for an explicit passive load, independently of any universal synthesis theorem."
+  },
+  "temporal_certificate": {
+    "krylov_polynomials_ascending": [
+      [
+        -2,
+        4,
+        12
+      ],
+      [
+        -26,
+        16,
+        108
+      ],
+      [
+        -242,
+        64,
+        972
+      ],
+      [
+        -2186,
+        256,
+        8748
+      ]
+    ],
+    "rank_determinant_exact": "5760",
+    "p_annihilation_verified": true,
+    "current_polynomial_ascending_exact": [
+      "-4/3",
+      "2",
+      "4/3"
+    ],
+    "p_ascending": [
+      -36,
+      49,
+      -14,
+      1
+    ],
+    "a_ascending": [
+      -14,
+      -12,
+      2
+    ],
+    "b_ascending": [
+      1764,
+      -2016,
+      1010,
+      -196,
+      14
+    ],
+    "H_ascending": [
+      8820,
+      -8323,
+      2541,
+      -309,
+      7
+    ],
+    "F_equals": "-8*H",
+    "GA_basis": [
+      "Du",
+      "A*Du",
+      "A^2*Du"
+    ],
+    "GA_basis_Gram_exact": [
+      [
+        "14",
+        "98",
+        "794"
+      ],
+      [
+        "98",
+        "794",
+        "6818"
+      ],
+      [
+        "794",
+        "6818",
+        "60074"
+      ]
+    ],
+    "current_correlations_exact": [
+      "2",
+      "16",
+      "112"
+    ],
+    "u_dot_each_GA_basis_vector": [
+      0,
+      0,
+      0
+    ],
+    "u_norm_squared_exact": "3",
+    "i_Q_norm_squared_exact": "19/9"
+  },
+  "irreducibility_certificate": {
+    "prime": 13,
+    "H_mod_13_ascending": [
+      6,
+      10,
+      6,
+      3,
+      7
+    ],
+    "x_to_p_squared_remainder": [
+      12,
+      9,
+      12,
+      5
+    ],
+    "gcd_with_x_to_p_squared_minus_x": [
+      1
+    ],
+    "x_to_p_fourth_remainder": [
+      0,
+      1
+    ],
+    "conclusion": "H irreducible over Q; each optimal tuning has algebraic degree 4"
+  },
+  "optional_galois_strengthening": {
+    "group": "S4",
+    "mod_13_cycle_type": [
+      4
+    ],
+    "mod_19_cycle_type": [
+      1,
+      3
+    ],
+    "mod_19_factors_ascending": [
+      [
+        18,
+        1
+      ],
+      [
+        15,
+        16,
+        2,
+        7
+      ]
+    ],
+    "cubic_irreducible_verified": true,
+    "meaning": "Products, quotients and nested square roots alone do not suffice; general radicals still suffice for this quartic."
+  },
+  "interior_existence": {
+    "gain_at_z_2_exact": "225/107",
+    "gain_pole_limits_exact": [
+      "1",
+      "1",
+      "1/9"
+    ],
+    "gain_z_0": 0,
+    "gain_z_infinity": 0
+  },
+  "positive_stationary_roots": [
+    {
+      "z": 1.9867022428965726,
+      "active": true,
+      "gain": 2.1029961840462073,
+      "gamma": 0.9783842754293134,
+      "L": 1.022093286976839,
+      "C": 0.4924664875813743
+    },
+    {
+      "z": 34.61901445486782,
+      "active": false,
+      "gain": 0.0,
+      "gamma": 0.0,
+      "L": null,
+      "C": null
+    }
+  ],
+  "uniqueness_certificate": {
+    "active_intervals": [
+      "(1,4)",
+      "(7,9)"
+    ],
+    "stationary_root_counts": [
+      {
+        "lo": "0",
+        "hi": "1",
+        "count": 0
+      },
+      {
+        "lo": "1",
+        "hi": "4",
+        "count": 1
+      },
+      {
+        "lo": "4",
+        "hi": "7",
+        "count": 0
+      },
+      {
+        "lo": "7",
+        "hi": "9",
+        "count": 0
+      },
+      {
+        "lo": "9",
+        "hi": "1262",
+        "count": 1
+      }
+    ],
+    "optimum_isolating_interval_exact": [
+      "993/500",
+      "1987/1000"
+    ],
+    "unique_active_stationary_root": true,
+    "reason": "The sole active stationary root is in (1,4), where z>0 and p*a<0 guarantee Gamma,L,C>0. Its gain exceeds all boundary limits. The other active interval has no stationary root. Hence the positive finite LC minimizer is globally unique."
+  },
+  "global_optimum": {
+    "z": 1.9867022428965726,
+    "active": true,
+    "gain": 2.1029961840462073,
+    "gamma": 0.9783842754293134,
+    "L": 1.022093286976839,
+    "C": 0.4924664875813743
+  }
+}

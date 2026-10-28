@@ -1,0 +1,16 @@
+# Regenerated results
+matlab/resultados/
+python/analysis_incremental/direct_series_ga_results.json
+python/analysis_incremental/*.npz
+python/analysis_time/results.json
+python/analysis_time/*.npz
+python/paper/comparacion/fronteras_exactas.*
+
+# MATLAB, Simulink and Python caches
+slprj/
+*.slxc
+*.asv
+*.autosave
+__pycache__/
+*.pyc
+.DS_Store

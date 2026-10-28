@@ -1,0 +1,24 @@
+case,method,E,I,n
+Jeltsema2014,C Kusters-Moore,4.51519,4.05755,1
+Jeltsema2014,Busqueda LC restringida,28.3663,2.58522,2
+Jeltsema2014,Czarnecki L fija,417.575,2.07147,2
+Jeltsema2014,Bezout Cauer,34.2327,2.00061,4
+Jeltsema2014,Foster polos libres,110.979,2.00061,4
+Jeltsema2014,Jeon polos previos,413.766,2.00061,4
+Jeltsema2014,LP polos fijos,28.3663,2.00061,3
+Jeltsema2014,Publicado Jeltsema 2014,31.7768,2.00062,3
+Czarnecki1981,Busqueda directa LC,1269.12,7.50239,2
+Czarnecki1981,Busqueda LC restringida,1269.12,7.50239,2
+Czarnecki1981,Czarnecki L fija,1336.66,7.53767,2
+Czarnecki1981,Bezout Cauer,2812.64,3.09676,6
+Czarnecki1981,Foster polos libres,3224.35,3.09676,6
+Czarnecki1981,Jeon polos previos,8062.56,3.09676,6
+Czarnecki1981,LP polos fijos,3300.92,3.09676,5
+Czarnecki1981,Publicado Czarnecki 1981 Fig3,1816.66,3.0968,4
+Proyecto_3pct,C Kusters-Moore,1.96112,4.40808,1
+Proyecto_3pct,Busqueda LC restringida,4.83409,4.3497,2
+Proyecto_3pct,Czarnecki L fija,8.19065,4.34848,2
+Proyecto_3pct,Bezout Cauer,9.6443,4.34783,6
+Proyecto_3pct,Foster polos libres,18.1363,4.34783,6
+Proyecto_3pct,Jeon polos previos,37.7745,4.34783,6
+Proyecto_3pct,LP polos fijos,4.83409,4.34783,5

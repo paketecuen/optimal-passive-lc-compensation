@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "Casos": 44,
+  "Simulaciones_Simulink": 8,
+  "Error_proyeccion_A": 2.0356506588978963E-11,
+  "Error_Simulink_A": 9.8785987975954275E-10,
+  "Error_Simulink_V": 4.5252891094666861E-8,
+  "Refinamiento_pico_V": 0.0018140908046007098,
+  "p_min_familia": 0.48148148148148145,
+  "QL": 100,
+  "QC": 500,
+  "alcance": "Fuente ideal fijada, carga LTI, escala 230 V/1000 W. Redes fijas. R/ESR elegidos a 50 Hz. Arranque de cada LC descargada con fase de minimo desajuste en un periodo, observacion 5 periodos; ramas simples en regimen. No son picos globales bajo todas las maniobras ni simulacion de semiconductores."
+}

@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "c_m2_S": 0.0039603960396040342,
+  "gamma_m2_S": -0.39603960396039556,
+  "K_m2_S2": 0.19801980198019833,
+  "s_m2": 25.999999999999982,
+  "p_m2": 24.999999999999947,
+  "Jeltsema_publicado_I_A": 2.0006212042673606,
+  "Jeltsema_publicado_FP": 0.90521567253355506,
+  "Jeltsema_familia": {
+    "mu_rad2_s2": 4.3039630892125462,
+    "Cp_F": 0.072141989532079953,
+    "L_H": 0.92316432677957083,
+    "C_F": 0.2516821688837616,
+    "Is_RMS_A": 2.00061259121388,
+    "E_media_J": 31.751315786751466,
+    "V_pico_V": 21.21320343559637
+  },
+  "Cz81_discrepancia_admitancias_max_S": 0.00020378183091678028,
+  "Cz81_nota": "Diferencia entre Fig.1 exacta y admitancias (12), mayor que el redondeo de cinco decimales; se comparan ambos casos por separado.",
+  "Cz81_Fig3_I_A": 3.0967953420072276,
+  "Cz81_polinomio_I_A": 3.0967634990327109,
+  "Cz81_polinomio_error_reactiva_A": 9.122539793555259E-6,
+  "Cz87_tabla": [
+    {
+      "Caso": "Sin compensar",
+      "I_impresa_A": 95.5,
+      "I_recalculada_A": 95.47021900443292,
+      "PF_bornes": 0.499619396495256,
+      "U_RMS_V": 95.542946965370035
+    },
+    {
+      "Caso": "C=.61 F",
+      "I_impresa_A": 66.8,
+      "I_recalculada_A": 66.769045303843029,
+      "PF_bornes": 0.73070442434970573,
+      "U_RMS_V": 99.025911304250016
+    },
+    {
+      "Caso": "L=.06 H",
+      "I_impresa_A": 51.3,
+      "I_recalculada_A": 51.392270147445572,
+      "PF_bornes": 0.9698930482183461,
+      "U_RMS_V": 99.702140986551015
+    },
+    {
+      "Caso": "L=.10 H",
+      "I_impresa_A": 50.2,
+      "I_recalculada_A": 50.340367822751205,
+      "PF_bornes": 0.98812894715504762,
+      "U_RMS_V": 99.526989665123253
+    },
+    {
+      "Caso": "L=.20 H",
+      "I_impresa_A": 48.8,
+      "I_recalculada_A": 49.92495383930104,
+      "PF_bornes": 0.99591887271852386,
+      "U_RMS_V": 99.524299767831351
+    },
+    {
+      "Caso": "Foster ec.18",
+      "I_impresa_A": 49.7,
+      "I_recalculada_A": 49.734001164555679,
+      "PF_bornes": 0.998393471051994,
+      "U_RMS_V": 99.46908473470836
+    }
+  ],
+  "Cz87_inconsistencia_tabla": "Columna L=.2 H: RMS impreso 48.8 A menor que fundamental impresa 49.7 A. Se conservan ambos; no se fuerza el calculo a coincidir."
+}

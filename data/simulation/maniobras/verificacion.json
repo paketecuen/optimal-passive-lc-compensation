@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "Simulaciones": 15,
+  "Refinamientos": 1,
+  "Error_base_V": 0,
+  "Refinamiento_V": 2.5046631435543532E-13,
+  "Refinamiento_A": 4.23779939309199E-5,
+  "Residuo_energia_J": 2.3990531783368851E-13,
+  "alcance": "Los cinco casos historicos se cruzan con tres criterios; los casos 1-3 tienen las mismas condiciones fisicas. Tension de prueba no escalada a 230 V. Planta ODE, no semiconductor."
+}

@@ -1,0 +1,336 @@
+{
+  "formulation": {
+    "u_time": "sqrt(2)*(8*cos(t)**4+4*cos(t)**3-6*cos(t)**2-2*cos(t))",
+    "T": "2*pi",
+    "A": "-D**2",
+    "v0": "D*u",
+    "i": "G*u+h(A)*D*u, with arbitrary G>=0",
+    "h_ascending_exact": [
+      "-1103/80",
+      "22327/2880",
+      "-1441/1440",
+      "103/2880"
+    ],
+    "p_ascending": [
+      576,
+      -820,
+      273,
+      -30,
+      1
+    ],
+    "a_ascending": [
+      1116,
+      1855,
+      -476,
+      25
+    ],
+    "b_ascending": [
+      472320,
+      -628992,
+      379380,
+      -107616,
+      15570,
+      -1092,
+      30
+    ],
+    "F_primitive_ascending": [
+      68173952,
+      -80912600,
+      36926304,
+      -8601960,
+      1041441,
+      -60975,
+      1003,
+      35
+    ],
+    "stationary_polynomial_scale": "2*a_prime*b-a*b_prime = 36*F",
+    "auxiliary_eigenvalues_for_certificate_only": [
+      1,
+      4,
+      9,
+      16
+    ],
+    "auxiliary_d": [
+      1,
+      4,
+      9,
+      16
+    ],
+    "auxiliary_c": [
+      -7,
+      14,
+      9,
+      9
+    ]
+  },
+  "finite_field_certificates": {
+    "irreducible_mod_31": {
+      "prime": 31,
+      "degree": 7,
+      "polynomial_ascending": [
+        23,
+        4,
+        3,
+        13,
+        27,
+        2,
+        11,
+        4
+      ],
+      "x_to_p_to_degree_remainder": [
+        0,
+        1
+      ],
+      "gcd_with_x_to_p_minus_x": [
+        1
+      ],
+      "irreducible": true
+    },
+    "factorization_mod_29": {
+      "factors_ascending": [
+        [
+          28,
+          14,
+          1
+        ],
+        [
+          2,
+          18,
+          27,
+          28,
+          20,
+          6
+        ]
+      ],
+      "product_verified": true,
+      "squarefree_gcd": [
+        1
+      ],
+      "quadratic_rabin": {
+        "prime": 29,
+        "degree": 2,
+        "polynomial_ascending": [
+          28,
+          14,
+          1
+        ],
+        "x_to_p_to_degree_remainder": [
+          0,
+          1
+        ],
+        "gcd_with_x_to_p_minus_x": [
+          1
+        ],
+        "irreducible": true
+      },
+      "quintic_rabin": {
+        "prime": 29,
+        "degree": 5,
+        "polynomial_ascending": [
+          2,
+          18,
+          27,
+          28,
+          20,
+          6
+        ],
+        "x_to_p_to_degree_remainder": [
+          0,
+          1
+        ],
+        "gcd_with_x_to_p_minus_x": [
+          1
+        ],
+        "irreducible": true
+      }
+    },
+    "galois_group": "S7",
+    "reason": "Irreducibility gives transitivity of prime degree 7. The unramified factorization 2+5 yields an element whose fifth power is a transposition. A transitive prime-degree subgroup with a transposition is S7."
+  },
+  "independent_temporal_certificate": {
+    "coordinate": "x=cos(t)",
+    "u_polynomial_ascending": [
+      0,
+      -2,
+      -6,
+      4,
+      8
+    ],
+    "A_on_q": "q+3*x*q_prime+(x*x-1)*q_double_prime",
+    "waveform_represented_by_q": "-sqrt(2)*sin(t)*q(cos(t))",
+    "krylov_vectors_polynomial_ascending": [
+      [
+        -2,
+        -12,
+        12,
+        32
+      ],
+      [
+        -26,
+        -240,
+        108,
+        512
+      ],
+      [
+        -242,
+        -4032,
+        972,
+        8192
+      ],
+      [
+        -2186,
+        -65280,
+        8748,
+        131072
+      ],
+      [
+        -19682,
+        -1047552,
+        78732,
+        2097152
+      ]
+    ],
+    "krylov_rank_determinant_exact": "232243200",
+    "p_annihilation_verified": true,
+    "current_polynomial_ascending_exact": [
+      "-10",
+      "5",
+      "12",
+      "18"
+    ],
+    "W_coefficient_vectors_polynomial_ascending": [
+      [
+        -384,
+        0,
+        -768,
+        -1152
+      ],
+      [
+        -8,
+        -108,
+        1008,
+        1568
+      ],
+      [
+        34,
+        120,
+        -252,
+        -448
+      ],
+      [
+        -2,
+        -12,
+        12,
+        32
+      ]
+    ],
+    "a_from_exact_period_integrals": [
+      "1116",
+      "1855",
+      "-476",
+      "25"
+    ],
+    "b_from_exact_period_integrals": [
+      "472320",
+      "-628992",
+      "379380",
+      "-107616",
+      "15570",
+      "-1092",
+      "30"
+    ],
+    "i_quadrature_norm_squared_exact": "1793/16"
+  },
+  "global_existence_certificate": {
+    "gain_at_z_2_exact": "49729/444",
+    "gain_pole_limits_exact": [
+      "49",
+      "49",
+      "9",
+      "81/16"
+    ],
+    "gain_z_0": 0,
+    "gain_z_infinity": 0,
+    "argument": "The feasible interior gain at z=2 exceeds every excluded boundary limit, so a global optimum is attained in the admissible interior and must be a root of F."
+  },
+  "sturm_sequence_ascending": [
+    [
+      68173952,
+      -80912600,
+      36926304,
+      -8601960,
+      1041441,
+      -60975,
+      1003,
+      35
+    ],
+    [
+      -80912600,
+      73852608,
+      -25805880,
+      4165764,
+      -304875,
+      6018,
+      245
+    ],
+    [
+      -16506138790,
+      16084640652,
+      -5926501670,
+      1050681841,
+      -89270730,
+      2992817
+    ],
+    [
+      19367609320744112,
+      -9360954727959805,
+      1916802548586666,
+      71514864625315,
+      -17245179579068
+    ],
+    [
+      227605903802396461057328,
+      -135393253686155813336127,
+      35624438194001117296482,
+      -2356516761645824600183
+    ],
+    [
+      -13906433173108211349402375335,
+      1992387886247355032636608838,
+      -604554386792732738621688489
+    ],
+    [
+      13597887976410899144377858123272884,
+      -349600673240981085621812725212725
+    ],
+    [
+      1
+    ]
+  ],
+  "positive_roots": [
+    {
+      "z": 2.00242451032035,
+      "active": true,
+      "gain": 112.0025905025983,
+      "gamma": 7.035032004823175,
+      "L": 0.14214576412934668,
+      "C": 3.5132570384377204
+    },
+    {
+      "z": 9.36887595325912,
+      "active": false,
+      "gain": 0.0,
+      "gamma": 0.0,
+      "L": null,
+      "C": null
+    }
+  ],
+  "global_optimum": {
+    "z": 2.00242451032035,
+    "active": true,
+    "gain": 112.0025905025983,
+    "gamma": 7.035032004823175,
+    "L": 0.14214576412934668,
+    "C": 3.5132570384377204
+  }
+}

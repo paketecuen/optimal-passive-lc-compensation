@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "Error_RMS_relativo": 9.6479653286551846E-12,
+  "Error_potencia_relativo": 1.45359985104219E-13,
+  "Error_proyeccion_relativo": 4.465202990543509E-12,
+  "Refinamiento_pico_V_relativo": 6.1125733400659754E-7,
+  "Refinamiento_pico_I_relativo": 4.4954929411323E-6,
+  "Casos": 8,
+  "Filas": 113,
+  "Malla_picos": 4096,
+  "Malla_auditoria": 8192,
+  "alcance": "Auditoria frecuencial separada; busqueda LC no certifica global ni existencia de minimo; picos periodicos."
+}

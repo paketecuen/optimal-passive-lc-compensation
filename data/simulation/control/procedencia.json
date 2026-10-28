@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "matlab/resultados/control_tsc/comparacion.csv",
+      "paper": "paper/control/control_tsc/comparacion.csv",
+      "source_sha256": "7d3e703a809f92eca5e28e3a66200f88b1edf4d4b63048d981748de8b68cf4d0",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/control_tsc/tension_moderada/comparacion.csv",
+      "paper": "paper/control/control_tsc/tension_moderada/comparacion.csv",
+      "source_sha256": "bd73e9265e17c8f884e6f211d09e6cedfd956847ae22a565541077f255a5be92",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/tsc_lazo_cerrado/moderada/comparacion.csv",
+      "paper": "paper/control/tsc_lazo_cerrado/moderada/comparacion.csv",
+      "source_sha256": "2d4b06a4416403e722750a7e33494463693c3faea6d8c9a4d0e04cec81c19610",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/tsc_lazo_cerrado/moderada/comparacion_matlab.csv",
+      "paper": "paper/control/tsc_lazo_cerrado/moderada/comparacion_matlab.csv",
+      "source_sha256": "dbe4f9b34f1d653e49dac046537ed20b52218bf5f0fc207dd9fd828916dbadef",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/tsc_lazo_cerrado/original/comparacion.csv",
+      "paper": "paper/control/tsc_lazo_cerrado/original/comparacion.csv",
+      "source_sha256": "cfdb7549b038102da234a2dad349f64beb491682cb7407c049946e91f65ebdad",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/tsc_lazo_cerrado/original/comparacion_matlab.csv",
+      "paper": "paper/control/tsc_lazo_cerrado/original/comparacion_matlab.csv",
+      "source_sha256": "a2cf29d5789145afea6de26b84c68cb67ef0707816225da79030e0be7e1fe93a",
+      "rows": 6
+    },
+    {
+      "source": "matlab/resultados/fuente_impedante/comparacion.csv",
+      "paper": "paper/control/fuente_impedante/comparacion.csv",
+      "source_sha256": "b5147de01acb2a85ecf40bcad2dac5f53245643190888ca0094244b66cb904af",
+      "rows": 18
+    },
+    {
+      "source": "matlab/resultados/fuente_impedante/comparacion_estrategias.csv",
+      "paper": "paper/control/fuente_impedante/comparacion_estrategias.csv",
+      "source_sha256": "139eab34b584f71f7cb80dcf0c10c8211dfa9b86022fb90358e37bd24e503f4a",
+      "rows": 3
+    },
+    {
+      "source": "matlab/resultados/control_red/comparacion.csv",
+      "paper": "paper/control/control_red/comparacion.csv",
+      "source_sha256": "f7db88b8a45cd5a0ef81acf4952b0d6a55bd01073e72483d442bca37b1f9d779",
+      "rows": 12
+    }
+  ]
+}

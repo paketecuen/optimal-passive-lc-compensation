@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "Filas": 40,
+  "Registros": 8,
+  "Error_reproduccion_A": 9.4291863206308335E-10,
+  "Error_observador": 7.3274719625260332E-15,
+  "fuente": "https://arxiv.org/html/1902.04653v5#S2.SS4",
+  "alcance": "Ocho registros sinteticos originales, dos semillas, 0/0.1/1/3% de ruido. Misma ventana pasada de ocho periodos. mSOGI conoce frecuencias 50/100/150 Hz y usa polos -a+j*n*omega, a=40/100 s^-1; sin FLL. Propagacion FOH exacta entre muestras pasadas y prediccion periodica al final del entrenamiento. Auditoria lsim del mismo observador. No es ensayo de frecuencia desconocida ni replica del benchmark publicado."
+}

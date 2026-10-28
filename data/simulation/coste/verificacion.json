@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "CPU": "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
+  "MATLAB": "24.1.0.2568132 (R2024a) Update 1",
+  "Error_max_A2": 1.7053025658242404e-13,
+  "alcance": "Timeit en el mismo host y registro remuestreado. Plantillas/G/FFT de plantillas preparados antes de medir. FFT soporte conocido usa exactamente el soporte de las plantillas, no estima frecuencias. Memoria de arrays, sin overhead del runtime ni temporales de biblioteca."
+}

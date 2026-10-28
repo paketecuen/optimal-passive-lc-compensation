@@ -1,0 +1,5 @@
+# Entorno cientifico probado: Python 3.12.14.
+# NumPy y SciPy de este fichero requieren Python >=3.11.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

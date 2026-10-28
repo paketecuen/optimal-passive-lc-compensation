@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "casos_restringidos": 8,
+  "max_E_sobre_limite": 0.9999999900000005,
+  "error_energia_RMS_vs_traza": 1.287016426346318E-15,
+  "puntos_L_fijada": 54,
+  "alcance": "Cota de energia verificada. Optimizacion restringida local, sin garantia global. Fuente R-L: sucesion de frontera, no certificado global."
+}
