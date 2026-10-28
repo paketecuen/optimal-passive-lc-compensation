@@ -1,0 +1,25 @@
+{
+  "title": "Optimal Passive LC Compensation Under Nonsinusoidal Voltage: Extended Version, Exact Certificates, Code and Data",
+  "upload_type": "software",
+  "description": "<p>Extended version with proofs, exact certificates and full tables, Python certificates, MATLAB/Simulink code and data for the manuscript <em>Optimal Passive LC Compensation Under Nonsinusoidal Voltage: Time-Domain Design, Network Synthesis, and Switched Banks</em>, by F. G. Montoya, A. Alcayde, J. Ventura and F. M. Arrabal-Campos, submitted to IEEE Transactions on Power Delivery.</p>",
+  "creators": [
+    {"name": "Montoya, Francisco G.", "affiliation": "Universidad de Almería"},
+    {"name": "Alcayde, Alfredo", "affiliation": "Universidad de Almería"},
+    {"name": "Ventura, Jorge", "affiliation": "Universidad de Almería"},
+    {"name": "Arrabal-Campos, Francisco M.", "affiliation": "Universidad de Almería"}
+  ],
+  "keywords": [
+    "passive compensation",
+    "LC compensators",
+    "harmonics",
+    "power quality",
+    "network synthesis",
+    "time-domain design",
+    "geometric algebra",
+    "thyristor-switched capacitors"
+  ],
+  "license": "mit",
+  "notes": "Licenses by component: code in python/ and matlab/ under the MIT License; data in data/ under CC BY 4.0; extended_version.pdf (c) 2026 the authors, all rights reserved, submitted to the IEEE for possible publication.",
+  "access_right": "open",
+  "language": "eng"
+}
